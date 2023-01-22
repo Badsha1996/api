@@ -4,8 +4,8 @@
   "description": "Backend server for our react streaming app",
   "main": "functions/api.js",
   "scripts": {
-    "start":"netlify serve functions",
-    "build":"netlify build functions"
+    "start":"netlify dev",
+    "build":"netlify build"
   },
   "author": "Badsha Laskar",
   "license": "ISC",
