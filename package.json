@@ -2,12 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Backend server for our react streaming app",
-  "main": "index.js",
+  "main": "functions/api.js",
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "nodemon index.js",
-    "build": "webpack",
-    "prod": "node dist/api.bundle.js"
+    "start":"netlify serve functions",
+    "build":"netlify build functions"
   },
   "author": "Badsha Laskar",
   "license": "ISC",
@@ -22,6 +20,8 @@
     "nodemon": "^2.0.20",
     "serverless-http": "^3.1.1",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "qrcode": "^1.5.1",
+    "speakeasy": "^2.0.0"
   }
 }
