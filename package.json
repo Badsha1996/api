@@ -5,7 +5,7 @@
   "main": "functions/api.js",
   "scripts": {
     "start":"netlify dev",
-    "build":"netlify build"
+    "build":"webpack"
   },
   "author": "Badsha Laskar",
   "license": "ISC",
